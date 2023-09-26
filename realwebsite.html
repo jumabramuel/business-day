@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Business Studies Today</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      color: #ff9800;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: normal;
+      margin-top: 10px;
+      color: #009688;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #fff;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #009688;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #00796b;
+    }
+
+    .feature {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .feature-icon {
+      font-size: 36px;
+      color: #ff9800;
+    }
+
+    .feature-heading {
+      font-size: 24px;
+      color: #333;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Business Studies Today</h1>
+    <h2>The Ultimate Resource for Business Students, where learning and business collide</h2>
+  </header>
+
+  <div class="container">
+    <h2>About Us</h2>
+    <p>
+      Business Studies Today is your trusted partner in the world of business education. We offer a wealth of knowledge, insights, and courses to empower you in your journey toward business excellence.
+    </p>
+    <p>
+      Join our vibrant community of aspiring business professionals today and unlock your full potential.
+    </p>
+    <a href="#" class="btn">Get Started</a>
+  </div>
+
+  <div class="feature">
+    <i class="feature-icon">★</i>
+    <h3 class="feature-heading">Expert Insights</h3>
+    <p>Access exclusive insights from industry experts.</p>
+  </div>
+
+  <div class="feature">
+    <i class="feature-icon">✓</i>
+    <h3 class="feature-heading">Interactive Learning</h3>
+    <p>Engage with interactive courses and quizzes.</p>
+  </div>
+
+  <div class="feature">
+    <i class="feature-icon">✉</i>
+    <h3 class="feature-heading">Stay Informed</h3>
+    <p>Receive the latest updates and news in the business world.</p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Business Studies Today</title>
+  <style>
+    /* Your existing styles here */
+
+    /* Sidebar styles */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      right: -300px; /* Start off hidden */
+      width: 300px;
+      background-color: #262626;
+      color: #fff;
+      padding: 20px;
+      height: 100%;
+      overflow-y: auto;
+      transition: right 0.3s ease; /* Add smooth animation */
+    }
+
+    .sidebar.active {
+      right: 0; /* Slide in when active */
+    }
+
+    .sidebar h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      color: #ff9800;
+      border-bottom: 2px solid #ff9800;
+      padding-bottom: 10px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      display: block;
+      transition: color 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      color: #ff9800;
+    }
+
+    /* Toggle button styles */
+    .toggle-button {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      z-index: 999; /* Ensure it's above the sidebar */
+    }
+
+    .toggle-bar {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 4px 0;
+      transition: transform 0.3s ease; /* Add rotation animation */
+    }
+
+    .toggle-bar.open {
+      transform: rotate(-45deg) translate(-5px, 5px);
+    }
+
+    /* Social icons */
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      font-size: 24px;
+      margin-right: 20px;
+      color: #ff9800;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your existing header content here -->
+  </header>
+
+  <div class="container">
+    <!-- Your existing content here -->
+  </div>
+
+  <!-- Sidebar Toggle Button -->
+  <div class="toggle-button" id="toggle-button">
+    <div class="toggle-bar"></div>
+    <div class="toggle-bar"></div>
+    <div class="toggle-bar"></div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <h3>Menu</h3>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="https://juma883.wordpress.com/about-2/">My About</a></li>
+      <li><a href="#">My Contacts</a></li>
+      <li><a href="#">Career Paths in Business Studies</a></li>
+      <li><a href="https://juma883.wordpress.com/business-studies-as-a-career-subject/">Learn More</a></li>
+      <li><a href="#">Instructional Sessions</a></li>
+      <li><a href="https://juma883.wordpress.com/lesson-tutorials/">Explore</a></li>
+      <li><a href="#">Insights</a></li>
+      <li><a href="https://juma883.wordpress.com/insights/">Discover</a></li>
+      <li><a href="#">Entrepreneur Spotlight</a></li>
+      <li><a href="https://juma883.wordpress.com/business-success-stories/">Read More</a></li>
+      <li><a href="#">Business Today</a></li>
+      <li><a href="https://juma883.wordpress.com/high-school-business-studies/">Learn More</a></li>
+      <li><a href="#">Career Path In Business Studies</a></li>
+      <li><a href="#">Explore Career Options</a></li>
+      <li><a href="#">Instructional Sessions</a></li>
+      <li><a href="#">Learn from Experts</a></li>
+      <li><a href="#">Insights in Business World</a></li>
+      <li><a href="#">Stay Informed</a></li>
+      <li><a href="#">Entrepreneur Spotlight</a></li>
+      <li><a href="#">Success Stories</a></li>
+      <li><a href="#">Business Today Mission</a></li>
+    </ul>
+
+    <div class="social-icons">
+      <a href="https://wa.me/254705676371" target="_blank">WhatsApp</a>
+      <a href="https://www.facebook.com/ykjmsbram" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/in/bramuel-juma" target="_blank">LinkedIn</a>
+      <a href="https://www.instagram.com/bramuelcosmas" target="_blank">Instagram</a>
+      <a href="https://twitter.com/bramueljuma12" target="_blank">Twitter</a>
+      <a href="https://www.tiktok.com/@ykjmsbram" target="_blank">TikTok</a>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript to handle sidebar toggle
+    const toggleButton = document.getElementById("toggle-button");
+    const sidebar = document.getElementById("sidebar");
+
+    toggleButton.addEventListener("click", () => {
+      sidebar.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form One Business Today</title>
+  <style>
+    /* Your existing styles here */
+
+    /* New styles for the Form One page */
+    .form-one-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-one-header {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-one-description {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .form-one-quote {
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .search-bar {
+      float: right;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+
+    .search-input {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .form-one-link {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ff9800;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .form-one-link:hover {
+      color: #555;
+    }
+
+    .form-one-content {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-one-content h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-one-content p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .form-one-congrats {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your existing header content here -->
+    <div class="search-bar">
+      <input class="search-input" type="text" placeholder="Search">
+      <button class="search-button">Search</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Your existing content here -->
+  </div>
+
+  <!-- Form One Business Today Page -->
+  <div class="form-one-page">
+    <h1 class="form-one-header">Form One Business Today</h1>
+    <p class="form-one-description">Welcome to the exciting world of business studies in your first year of high school! It's a journey of discovery and learning about the foundations of business.</p>
+    <p class="form-one-quote">"Success in business begins with a strong foundation. Embrace the knowledge, and the world of opportunities awaits you."</p>
+    
+    <!-- Form One Content -->
+    <div class="form-one-content">
+      <h2>What to Expect in Form One Business Studies</h2>
+      <p>In Form One, you'll delve into the following essential topics in Business Studies:</p>
+      <ol>
+        <li>Introduction to Business Studies</li>
+        <li>Business and Its Environment</li>
+        <li>Satisfaction of Human Wants</li>
+        <li>Production</li>
+        <li>Entrepreneurship</li>
+        <li>Office Practice</li>
+      </ol>
+      <p>These topics will provide you with a solid foundation for your future business studies. Get ready to learn, grow, and unlock your potential!</p>
+    </div>
+    
+    <!-- Link to Form One Content -->
+    <a class="form-one-link" href="https://juma883.wordpress.com/2023/07/08/form-one/" target="_blank">Explore Form One Content</a>
+    
+    <!-- Congratulations Message -->
+    <p class="form-one-congrats">Congratulations on completing your first year of the course!</p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Two Business Today</title>
+  <style>
+    /* Your existing styles here */
+
+    /* New styles for the Form Two page */
+    .form-two-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-two-header {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-two-description {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .form-two-quote {
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .form-two-link {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ff9800;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .form-two-link:hover {
+      color: #555;
+    }
+
+    .form-two-content {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-two-content h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-two-content p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .form-two-congrats {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your existing header content here -->
+  </header>
+
+  <div class="container">
+    <!-- Your existing content here -->
+  </div>
+
+  <!-- Form Two Business Today Page -->
+  <div class="form-two-page">
+    <h1 class="form-two-header">Form Two Business Today</h1>
+    <p class="form-two-description">Welcome to the world of business studies in your second year of high school! This year, we explore more about the dynamic business world.</p>
+    <p class="form-two-quote">"In business, adaptability is key. Learn the essentials to thrive in a changing environment."</p>
+    
+    <!-- Form Two Content -->
+    <div class="form-two-content">
+      <h2>What to Expect in Form Two Business Studies</h2>
+      <p>In Form Two, you will delve into the following important topics in Business Studies:</p>
+      <ol>
+        <li>Forms of Business Units</li>
+        <li>Government and Business</li>
+        <li>Transport</li>
+        <li>Communication</li>
+        <li>Warehousing</li>
+        <li>Insurance</li>
+        <li>Product Promotion</li>
+      </ol>
+      <p>These topics will broaden your understanding of the business landscape and equip you with valuable knowledge for your future endeavors.</p>
+    </div>
+    
+    <!-- Link to Form Two Content -->
+    <a class="form-two-link" href="https://juma883.wordpress.com/2023/07/22/form-two/" target="_blank">Explore Form Two Content</a>
+    
+    <!-- Congratulations Message -->
+    <p class="form-two-congrats">Congratulations on completing your second year of the course!</p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Three Business Today</title>
+  <style>
+    /* Your existing styles here */
+
+    /* New styles for the Form Three page */
+    .form-three-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-three-header {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-three-description {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .form-three-quote {
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+      color: #888;
+      margin-bottom: 30px;
+    }
+
+    .form-three-link {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ff9800;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .form-three-link:hover {
+      color: #555;
+    }
+
+    .form-three-content {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-three-content h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-three-content p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .form-three-congrats {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your existing header content here -->
+  </header>
+
+  <div class="container">
+    <!-- Your existing content here -->
+  </div>
+
+  <!-- Form Three Business Today Page -->
+  <div class="form-three-page">
+    <h1 class="form-three-header">Form Three Business Today</h1>
+    <p class="form-three-description">Welcome to the world of advanced business studies in your third year of high school! This year, we explore deeper into the intricacies of business.</p>
+    <p class="form-three-quote">"Business knowledge is the key to economic empowerment. Prepare to unlock new levels of understanding."</p>
+    
+    <!-- Form Three Content -->
+    <div class="form-three-content">
+      <h2>What to Expect in Form Three Business Studies</h2>
+      <p>In Form Three, you will delve into the following important topics in Business Studies:</p>
+      <ol>
+        <li>Demand and Supply</li>
+        <li>Size and Location of a Firm</li>
+        <li>Product Markets</li>
+        <li>Chain of Distribution</li>
+        <li>National Income</li>
+        <li>Population and Employment</li>
+        <li>Net Worth of a Business</li>
+        <li>Business Transactions</li>
+        <li>The Ledger</li>
+        <li>The Cash Book</li>
+      </ol>
+      <p>These topics will equip you with advanced knowledge and skills in the world of business.</p>
+    </div>
+    
+    <!-- Link to Form Three Content -->
+    <a class="form-three-link" href="https://juma883.wordpress.com/2023/07/31/form-three-business-studies/" target="_blank">Explore Form Three Content</a>
+    
+    <!-- Congratulations Message -->
+    <p class="form-three-congrats">Congratulations on completing your third year of the course!</p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Four Business Today</title>
+  <style>
+    /* Your existing styles here */
+
+    /* New styles for the Form Four page */
+    .form-four-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-four-header {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-four-description {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .form-four-quote {
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+      color: #ff9800;
+      margin-bottom: 30px;
+    }
+
+    .form-four-link {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ff9800;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .form-four-link:hover {
+      color: #555;
+    }
+
+    .form-four-content {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-four-content h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .form-four-content p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .form-four-congrats {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: #ff9800;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your existing header content here -->
+  </header>
+
+  <div class="container">
+    <!-- Your existing content here -->
+  </div>
+
+  <!-- Form Four Business Today Page -->
+  <div class="form-four-page">
+    <h1 class="form-four-header">Form Four Business Today</h1>
+    <p class="form-four-description">Congratulations! You've reached the final year of high school, and it's time to dive deep into the world of advanced business studies.</p>
+    <p class="form-four-quote">"The culmination of your journey is here. Prepare to conquer the intricacies of the business world."</p>
+    
+    <!-- Form Four Content -->
+    <div class="form-four-content">
+      <h2>What to Expect in Form Four Business Studies</h2>
+      <p>In Form Four, you will explore the following crucial topics in Business Studies:</p>
+      <ul>
+        <li>Source Documents and Books of Original Entry</li>
+        <li>Financial Statements</li>
+        <li>Money and Banking</li>
+        <li>Public Finance</li>
+        <li>Inflation</li>
+        <li>International Trade</li>
+        <li>Economic Development and Planning</li>
+      </ul>
+      <p>This final year will equip you with comprehensive knowledge and skills for the dynamic business landscape.</p>
+    </div>
+    
+    <!-- Link to Form Four Content -->
+    <a class="form-four-link" href="https://juma883.wordpress.com/2023/08/02/four-four-business-studies/" target="_blank">Explore Form Four Content</a>
+    
+    <!-- Congratulations Message -->
+    <p class="form-four-congrats">Congratulations on reaching the pinnacle of your high school journey!</p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Business Studies Notes F1-F4</title>
+  <style>
+    /* New styles for the Business Studies Notes page */
+    .business-notes-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .business-notes-header {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .business-notes-description {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .business-notes-quote {
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+      color: #ff9800;
+      margin-bottom: 30px;
+    }
+
+    .business-notes-content {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .business-notes-content h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .business-notes-content p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .business-notes-link {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ff9800;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .business-notes-link:hover {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your existing header content here -->
+  </header>
+
+  <div class="container">
+    <!-- Your existing content here -->
+  </div>
+
+  <!-- Business Studies Notes F1-F4 Page -->
+  <div class="business-notes-page">
+    <h1 class="business-notes-header">Business Studies Notes F1-F4</h1>
+    <p class="business-notes-description">Explore comprehensive Business Studies notes covering Form One to Form Four. Master the essentials of business education.</p>
+    <p class="business-notes-quote">"Knowledge is the foundation of success in the world of business. Your journey to excellence begins here."</p>
+    
+    <!-- Business Studies Notes Content -->
+    <div class="business-notes-content">
+      <!-- You can include your compiled business notes content here -->
+    </div>
+    
+    <!-- Link to Business Studies Notes -->
+    <a class="business-notes-link" href="https://juma883.wordpress.com/2023/08/02/business-studies-notes-f1-f4/" target="_blank">Access Business Studies Notes</a>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Business Archives - KCSE Past Papers</title>
+  <style>
+    /* New styles for the Business Archives page */
+    .business-archives-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .business-archives-header {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .business-archives-description {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .business-archives-quote {
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+      color: #ff9800;
+      margin-bottom: 30px;
+    }
+
+    .business-archives-link {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ff9800;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .business-archives-link:hover {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your existing header content here -->
+  </header>
+
+  <div class="container">
+    <!-- Your existing content here -->
+  </div>
+
+  <!-- Business Archives - KCSE Past Papers Page -->
+  <div class="business-archives-page">
+    <h1 class="business-archives-header">Business Archives - KCSE Past Papers</h1>
+    <p class="business-archives-description">Access a comprehensive collection of KCSE Business Studies past papers from 1990 to date. Prepare for success with valuable resources.</p>
+    <p class="business-archives-quote">"Unlock your potential with the wisdom of past exams. Practice makes perfect."</p>
+    
+    <!-- Link to Business Archives -->
+    <a class="business-archives-link" href="https://juma883.wordpress.com/business-past/" target="_blank">Explore KCSE Past Papers</a>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Appreciation and Contact - Business Studies Today</title>
+  <style>
+    /* New styles for the Appreciation and Contact page */
+    .appreciation-page {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .appreciation-header {
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .appreciation-message {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .appreciation-contact {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .appreciation-contact h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .appreciation-contact p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .appreciation-contact ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .appreciation-contact li {
+      margin-bottom: 10px;
+    }
+
+    .appreciation-contact a {
+      text-decoration: none;
+      color: #ff9800;
+      transition: color 0.3s ease;
+    }
+
+    .appreciation-contact a:hover {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your existing header content here -->
+  </header>
+
+  <div class="container">
+    <!-- Your existing content here -->
+  </div>
+
+  <!-- Appreciation and Contact Page -->
+  <div class="appreciation-page">
+    <h1 class="appreciation-header">Thank You for Visiting Business Studies Today!</h1>
+    <p class="appreciation-message">We appreciate your visit to our website. Your interest in business studies and learning motivates us to continue providing valuable resources.</p>
+    
+    <!-- Contact Information -->
+    <div class="appreciation-contact">
+      <h2>Contact Information</h2>
+      <p>If you have any questions or would like to get in touch with us, please feel free to reach out:</p>
+      <ul>
+        <li>WhatsApp: <a href="https://wa.me/254705676371" target="_blank">+254705676371</a></li>
+        <li>Facebook: <a href="https://www.facebook.com/ykjmsbram" target="_blank">Ykjms Bram</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/bramuel-juma" target="_blank">Bramuel Juma</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/bramuelcosmas" target="_blank">Bramuel Cosmas</a></li>
+        <li>Twitter: <a href="https://twitter.com/bramueljuma12" target="_blank">Bramuel Juma</a></li>
+        <li>TikTok: <a href="https://www.tiktok.com/@ykjmsbram" target="_blank">Ykjms Bram</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comment Section</title>
+  <style>
+    /* Styles for the comment section */
+    .comments {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .comment {
+      margin-bottom: 20px;
+    }
+
+    .comment .user {
+      font-weight: bold;
+    }
+
+    .comment .timestamp {
+      font-size: 12px;
+      color: #888;
+    }
+
+    .comment .text {
+      margin-top: 5px;
+    }
+
+    /* Comment form styles */
+    .comment-form {
+      margin-top: 20px;
+    }
+
+    .comment-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .comment-form a {
+      display: block;
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .comment-form a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your website header content here -->
+  </header>
+
+  <div class="container">
+    <!-- Your website content here -->
+
+    <!-- Comment Section -->
+    <div class="comments">
+      <h2>Comments</h2>
+
+      <!-- Sample comment -->
+      <div class="comment">
+        <span class="user">Riziki Sabaya</span>
+        <span class="timestamp">2 days ago</span>
+        <p class="text">It's helpful!</p>
+      </div>
+
+      <!-- Add more comments here -->
+
+      <!-- Comment Form -->
+      <div class="comment-form">
+        <h3>Add a Comment</h3>
+        <textarea rows="4" placeholder="Write your comment here..."></textarea>
+        <a href="mailto:bramueljuma19@gmail.com">Submit</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Website Title</title>
+  <!-- Your existing CSS and other head content here -->
+  <style>
+    /* Your existing CSS styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+    }
+
+    /* Header styles (your existing styles) */
+    header {
+      /* Your header styles here */
+    }
+
+    /* Container styles (your existing styles) */
+    .container {
+      /* Your container styles here */
+    }
+
+    /* Comment section styles (your existing styles) */
+    .comments {
+      /* Your comment section styles here */
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #111;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .copyright {
+      font-size: 14px;
+      opacity: 0.7;
+      margin: 10px 0;
+    }
+
+    .footer-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links li {
+      margin: 0 10px;
+    }
+
+    .footer-links a {
+      text-decoration: none;
+      color: #ff9800;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    /* Unique styles for the footer */
+    .footer-logo {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .footer-social {
+      margin-top: 20px;
+    }
+
+    .footer-social a {
+      display: inline-block;
+      font-size: 24px;
+      margin-right: 20px;
+      color: #ff9800;
+      transition: color 0.3s ease;
+    }
+
+    .footer-social a:last-child {
+      margin-right: 0;
+    }
+
+    .footer-social a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Your website header content here -->
+  </header>
+
+  <div class="container">
+    <!-- Your website content here -->
+
+    <!-- Comment Section (if needed) -->
+    <div class="comments">
+      <!-- Comment section content here -->
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <p class="footer-logo">Business Studies Today</p>
+        <p class="copyright">&copy; 2023 Juma Edtech. All Rights Reserved.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://juma883.wordpress.com/privacy-policy" target="_blank">Privacy Policy</a></li>
+        <li><a href="https://juma883.wordpress.com/terms-of-service" target="_blank">Terms of Service</a></li>
+      </ul>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/ykjmsbram" target="_blank">Facebook</a>
+        <a href="https://www.linkedin.com/in/bramuel-juma" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/bramuelcosmas" target="_blank">Instagram</a>
+        <a href="https://twitter.com/bramueljuma12" target="_blank">Twitter</a>
+        <a href="https://www.tiktok.com/@ykjmsbram" target="_blank">TikTok</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
